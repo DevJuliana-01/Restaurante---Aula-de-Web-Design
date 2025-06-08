@@ -8,10 +8,11 @@ body{
     background-color: #F9F1DC ;
 }
 
-header{
+header h1{
     display: flex;
     justify-content: center;
-
+    margin-bottom: 0em;
+    margin-top: 1em;
 }
 
 main figure{
@@ -68,4 +69,31 @@ footer{
 
 footer address{
     padding-bottom: 1em;
+}
+
+nav ol{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    border-top: #F5BD26 2px solid;
+}
+
+nav ol li{
+    display: inline-block;
+    margin-right: 3em;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+nav ol li a{
+    text-decoration: none;
+    color: black;
+    font-family: Garamond;
+    font-style: italic;
+    font-size: 25px;
+}
+
+nav li a:hover {
+    font-weight: bold;
+    border-bottom: 2px solid #F5BD26;
 }
