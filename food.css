@@ -97,3 +97,21 @@ nav li a:hover {
     font-weight: bold;
     border-bottom: 2px solid #F5BD26;
 }
+
+main article ul{
+    margin-left: 5em;
+}
+main article ul li{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 2em;
+    border-top: #F5BD26 2px solid;
+}
+
+main article ul li p{
+    text-align: left;
+}
+
+.chef li {
+    display: inline-block;
+}
