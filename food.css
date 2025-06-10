@@ -59,15 +59,17 @@ main section p{
 }
 
 footer{
-    display: flex;
+    display: block;
     background-color: white;
     width: 100%;
+    height: auto;
     justify-content: center;
     padding-top: 2em;
 }
 
 footer address{
     padding-bottom: 1em;
+    text-align: center;
 }
 
 nav ol{
